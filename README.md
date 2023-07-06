@@ -64,10 +64,7 @@ Ex:
 If we select one option from multiple options, then go with radio button.
 Using input tag and type=radio attribute we can create radio button.
 To group radio buttons , we have to take same name attribute values.
-# Ex:
-
-<input type="radio" name='gen'/> Male
-<input type="radio" name='gen'/> FeMale
+# Ex:<input type="radio" name='gen'/> Male <input type="radio" name='gen'/> FeMale
 
 # 4.checkbox:
 
