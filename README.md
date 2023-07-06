@@ -34,9 +34,7 @@ By using display:inline CSS property ,we can convert Block level element into in
 # Attribute:
 An attribute is a key value pair, it tells the behavior of an element.
 Attribute key is always unique.
-Then common attributes for all HTML elements are id,name,class,style etc..
-# Ex:
-
+Then common attributes for all HTML elements are id,name,class,style etc.
 <div id="div1" >Sachin </div>
 
 In this 'id' is an attribute.
@@ -44,44 +42,31 @@ In this 'id' is an attribute.
 
 # Input Controls:
 # 1.Text Box:
-
 Using input tag we can create text box.
 The default attribute for input tag is type=text.
-Ex:
-
 <input/>
 <input type="text" />
 
 # 2.Password Box:
-
 Using input tag and type=password attribute we can create password field.
 Ex:
-
 <input type="password" />
 
 # 3.Radio button:
-
 If we select one option from multiple options, then go with radio button.
 Using input tag and type=radio attribute we can create radio button.
 To group radio buttons , we have to take same name attribute values.
-# Ex:<input type="radio" name='gen'/> Male <input type="radio" name='gen'/> FeMale
+<input type="radio" name='gen'/> Male <input type="radio" name='gen'/> FeMale
 
 # 4.checkbox:
-
 If we select multiple options from multiple options, then go with checkbox.
 Using input tag and type=checkbox attribute we can create checkbox.
-# Ex:
-
 <input type="checkbox" /> Cricket
 <input type="checkbox" /> Hockey
 
 # 5 Dropdown:
-
 If we select single optio from multiple options, then go with select box(dropdown).
 Using select, option tags, we can create checkbox.
-# Ex:
-
-
 <select>
     <option>India</option>
     <option>Pak</option>
@@ -90,18 +75,12 @@ Using select, option tags, we can create checkbox.
     
 
 # 6.textarea:
-
 If you want to write more content in multiple row, then go with textarea
 Using textarea tag, we can create textarea.
-# Ex:
-
 <textarea cols="30" rows="4"> </textarea>
 
 # 7.File Upload:
-
 Using input tag and type=file attribute we can create File Upload.
-# Ex:
-
 <input type="file" />
 
 # HTML TAGS:
@@ -148,7 +127,6 @@ If you want to display the data in the form of rows and columns, then go with ta
 The table contains rows.
 The rows contains heading or data..
 table is representing by 'table' tag, row is representing by 'tr' tag, heading is representing by 'th' and data is representing by 'td' tag..
-
 <table border='1px'>
     <tr>
         <th>Name</th>
@@ -168,7 +146,6 @@ table is representing by 'table' tag, row is representing by 'tr' tag, heading i
 which is used to create unordered list.
 we can represent unordered list by using 'ul' tag and the items in the list can represent 'li' tag.
 By default unordered list items are displayed with dot(.)
-
 <ul>
     <li>Sachin</li>
     <li>Dhoni</li>
@@ -180,7 +157,6 @@ By default unordered list items are displayed with dot(.)
 which is used to create ordered list.
 we can represent ordered list by using 'ol' tag and the items in the list can represent 'li' tag.
 By default ordered list items are displayed with numbers(1,2,3...)
-
 <ol>
     <li>Sachin</li>
     <li>Dhoni</li>
@@ -267,5 +243,5 @@ tel
 url
 date
 datetime
-# eg. --> You can use above list items to the input tag with type attribute. <input type="color" />
+You can use above list items to the input tag with type attribute. <input type="color" />
 Attributes
