@@ -135,7 +135,7 @@ link:
 # iframe:
 which is used to load external urls into your html.
 If you want's to load any you tube video or any other website in your html
-<iframe src="http://www.uijavakit.com"></iframe>
+<iframe src="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-1.php"></iframe>
 <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
 
 # image:
