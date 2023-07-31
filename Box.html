@@ -1,0 +1,36 @@
+<script crossorigin src="reactdom.js"></script>
+<script crossorigin src="reactdom-developement.js"></script>
+<script src="babel.js"></script>
+<div id="root"></div>
+<style>
+    .box{
+        border:1px solid red;
+        width:100px;
+        line-height: 100px;
+        text-align: center;
+        height:100px;
+        display:inline-block;
+    }
+</style>
+<script type="text/babel">
+   function Box(obj){
+    return <div className="box">{obj.no}</div>
+}
+// obj={
+//     no:1,
+// }
+
+
+function App(){
+    return <div>
+        <div><Box no="1"/><Box no="2"/></div>
+        <div><Box no="3"/><Box no="4"/></div>
+        
+        </div>
+        
+    }
+    let root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App/>);
+    
+
+</script>

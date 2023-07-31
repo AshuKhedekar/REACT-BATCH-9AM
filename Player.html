@@ -1,0 +1,32 @@
+<script crossorigin src="reactdom.js"></script>
+<script crossorigin src="reactdom-developement.js"></script>
+<script src="babel.js"></script>
+<div id="root"></div>
+
+<script type="text/babel">
+   
+function Player(name){
+    return <div>
+        <h2>My Name is {name.name}. I am From {name['loc']}</h2>
+        </div>
+    
+}
+name={
+    name:"Sachin",
+    loc:"Mumbai"
+}
+
+function App(){
+    return <div>
+        <Player name="Sachin" loc="Mumbai"/> 
+        <Player name="Dhoni" loc="Ranchi"/> 
+        <Player name="Kohli" loc="Delhi"/> 
+        <Player name="Ganguly"  loc="Mumbai"/> 
+        </div>
+        
+    }
+    let root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App/>);
+    
+
+</script>
